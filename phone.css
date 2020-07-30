@@ -172,6 +172,16 @@ width:100%;
     color:darkgray;
     font-size:15px;
 }
+.website-features
+{
+    /* margin:60px 0px; */
+    margin:50px;
+    margin-left:15px;
+}
+.website-features img
+{
+    width:20%;
+}
 .footer h1 
 {
     font-size:22px;
@@ -193,5 +203,47 @@ padding-bottom:20px;
 {
 color:yellow;
 font-size:21px;
+}
+
+.testimonial
+{
+    padding-top:0rem;
+}
+.testimonial #left
+{
+   margin-left:0rem;
+}
+.testimonial .col-md-4
+{
+    text-align: center;
+    padding:20px 10px;
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.1);
+    cursor:pointer;
+    transition:transform 0.25s;
+}
+.testimonial .col-md-4 img
+{
+  width:0rem;
+
+  margin-top:10px;
+  border-radius:50%;
+}
+.testimonial .col-md-4:hover{
+    transform:translateY(-10px);
+}
+.testimonial  .fa-quote-left,.fa-quote-right
+{
+    color:black;
+    font-size:13px;
+}
+.testimonial .fa-quote-right
+{
+    color:black;
+    font-size:13px;
+}
+.testimonial .rating .fa
+{
+    color:black;
+    font-size:10px;
 }
 }
