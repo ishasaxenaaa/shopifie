@@ -310,7 +310,7 @@ width:100%;
 .new-arrivals p
 {
     text-align: center;
-    margin-bottom:15px;
+    margin-bottom:20px;
     color:darkgray;
 }
 .new-arrivals p b
@@ -533,12 +533,25 @@ margin-left:32%;
     font-size:30px;
 text-align:center;
 color:black;
+
 }
 .featured-categories p 
 {
     font-size:20px;
 text-align: center;
 color:darkgray;
+}
+.testimonial p b
+{
+    font-size:18px;
+text-align:center;
+color:black;
+}
+.featured-categories p b
+{
+    font-size:30px;
+text-align: center;
+color:black;
 }
 @media only screen  and(max-width:980px)
 {
@@ -690,7 +703,7 @@ width:100%;
     color:black;
     font-size:10px;
     width:15%;
-    color:red;
+
 
 }
 .product-bottom h3
@@ -759,7 +772,7 @@ font-size:21px;
 {
     text-align: center;
     padding:20px 10px;
-    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.1);
+    box-shadow:0px 0px 20px 0px rgba(247, 243, 5, 0.856);
     cursor:pointer;
     transition:transform 0.25s;
 }
